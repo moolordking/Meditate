@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.ac.meditate" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Sine Meditation</name>
+    <description>
+        A meditation method revolving around a sine tone
+    </description>
+    <author email="support@phonegap.com" href="http://phonegap.com">
+    </author>
+    <content src="index.html" />
+    <access origin="*" subdomains="true" />
+    <preference name="orientation" value="portrait" />
+    <preference name="target-device" value="universal" />
+    <preference name="fullscreen" value="false" />
+    <preference name="android-targetSdkVersion" value="29" />
+    <preference name="splash-screen-duration" value="0" />
+    <icon src="Icon.png" />
+    <allow-navigation href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <gap:plugin name="cordova-plugin-whitelist" source="npm" />
+</widget>
